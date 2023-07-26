@@ -16,12 +16,4 @@ public class KafkaConfig {
                 .replicas(1)
                 .build();
     }
-
-    /*public ProducerFactory<String, Notification> greetingProducerFactory() {
-        // ...
-        configProps.put(
-                ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
-                JsonSerializer.class);
-        return new DefaultKafkaProducerFactory<>(configProps);
-    }*/
 }
